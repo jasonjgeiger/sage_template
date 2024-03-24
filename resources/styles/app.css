@@ -93,10 +93,14 @@
     body{
         @apply font-opensans;
         @apply font-normal;
+        background-color: theme(colors.Mint);
     }
-    .app{
-        
+    @media screen and (min-width: theme(screens.sm)) {
+        .app{
+            background-color: theme(colors.Green);
+        }    
     }
+    
     hr{
         @apply my-4;
     }
