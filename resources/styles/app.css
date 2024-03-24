@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+* Fonts
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*
+* 300 - Light
+*/
+@font-face {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(../fonts/TitilliumWeb/TitilliumWeb-Light.ttf);
+}
+@font-face {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(../fonts/TitilliumWeb/TitilliumWeb-LightItalic.ttf);
+}
+/*
+* 400 - Regular
+*/
+@font-face {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(../fonts/TitilliumWeb/TitilliumWeb-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'Titillium Web';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/TitilliumWeb/TitilliumWeb-Italic.ttf);
+}
+/*
+* 600 - Semibold
+*/
+@font-face {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(../fonts/TitilliumWeb/TitilliumWeb-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'Titillium Web';
+    font-style: italic;
+    font-weight: 600;
+    font-display: swap;
+    src: url(../fonts/TitilliumWeb/TitilliumWeb-SemiBoldItalic.ttf);
+}
+/*
+* 700 - Bold
+*/
+@font-face {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(../fonts/TitilliumWeb/TitilliumWeb-Bold.ttf);
+}
+@font-face {
+    font-family: 'Titillium Web';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url(../fonts/TitilliumWeb/TitilliumWeb-BoldItalic.ttf);
+}
+/*
+* 900 - Black
+*/
+@font-face {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(../fonts/TitilliumWeb/TitilliumWeb-Black.ttf);
+}
+
+/*
+* Styles
+*/
+
+    body{
+        @apply font-opensans;
+        @apply font-normal;
+    }
+    .app{
+        
+    }
+    hr{
+        @apply my-4;
+    }
+
+
+@layer utilities {
+
+
+}
+
+@layer components {
+    .nav{
+        @apply pt-4;
+    }
+    .nav ul{
+        
+    }
+    .nav li{
+        @apply px-2;
+    }
+    .nav a{
+        @apply text-sm;
+        @apply font-semibold;
+    }
+}

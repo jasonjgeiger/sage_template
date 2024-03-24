@@ -1,0 +1,136 @@
+{
+  "__generated__": "⚠️ This file is generated. Do not edit.",
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "background": {
+      "backgroundImage": true
+    },
+    "color": {
+      "custom": false,
+      "customDuotone": false,
+      "customGradient": false,
+      "defaultDuotone": false,
+      "defaultGradients": false,
+      "defaultPalette": false,
+      "duotone": [],
+      "palette": [
+        {
+          "color": "#86c8bc",
+          "name": "Mint",
+          "slug": "mint"
+        },
+        {
+          "color": "#63666a",
+          "name": "Gray",
+          "slug": "gray"
+        },
+        {
+          "color": "#005587",
+          "name": "Dark-Blue",
+          "slug": "dark-blue"
+        },
+        {
+          "color": "#6fa287",
+          "name": "Green",
+          "slug": "green"
+        },
+        {
+          "color": "#00b2a9",
+          "name": "Teal",
+          "slug": "teal"
+        },
+        {
+          "color": "#6b4c4c",
+          "name": "Brown",
+          "slug": "brown"
+        },
+        {
+          "color": "#6cace4",
+          "name": "Light-Blue",
+          "slug": "light-blue"
+        },
+        {
+          "color": "#b7a99a",
+          "name": "Tan",
+          "slug": "tan"
+        },
+        {
+          "color": "#4e87a0",
+          "name": "Medium-Blue",
+          "slug": "medium-blue"
+        },
+        {
+          "color": "#e04e39",
+          "name": "Orange",
+          "slug": "orange"
+        }
+      ]
+    },
+    "custom": {
+      "spacing": {},
+      "typography": {
+        "font-size": {},
+        "line-height": {}
+      }
+    },
+    "spacing": {
+      "padding": true,
+      "units": [
+        "px",
+        "%",
+        "em",
+        "rem",
+        "vw",
+        "vh"
+      ]
+    },
+    "typography": {
+      "customFontSize": false,
+      "fontFamilies": [
+        {
+          "fontFamily": "Titillium Web,sans-serif",
+          "name": "Titillium Web",
+          "slug": "titillium"
+        },
+        {
+          "fontFamily": "Open Sans,sans-serif",
+          "name": "Open Sans",
+          "slug": "opensans"
+        }
+      ],
+      "fontSizes": [
+        {
+          "name": "xs",
+          "size": "0.5rem",
+          "slug": "xs"
+        },
+        {
+          "name": "sm",
+          "size": "0.75rem",
+          "slug": "sm"
+        },
+        {
+          "name": "base",
+          "size": "1rem",
+          "slug": "base"
+        },
+        {
+          "name": "md",
+          "size": "1.25rem",
+          "slug": "md"
+        },
+        {
+          "name": "lg",
+          "size": "2em",
+          "slug": "lg"
+        },
+        {
+          "name": "xl",
+          "size": "4rem",
+          "slug": "xl"
+        }
+      ]
+    }
+  }
+}
