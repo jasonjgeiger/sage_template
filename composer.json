@@ -53,7 +53,8 @@
     "preferred-install": "dist",
     "sort-packages": true,
     "allow-plugins": {
-      "composer/installers": true
+      "composer/installers": true,
+      "htmlburger/carbon-fields": true
     }
   },
   "minimum-stability": "dev",

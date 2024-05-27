@@ -1,7 +1,10 @@
 /node_modules
 /vendor
 /public
+/dist
 .env
 .budfiles
+.cache-loader
+composer.phar
 npm-debug.log
 yarn-error.log

@@ -31,3 +31,17 @@ Theme fully documented and code reposiotory publically hosted for easy developer
 ## Theme Status 
 **Origin**
 
+
+## Things to figure out
+### CSS
+- Tailwind in CSS
+- Media queries as classes
+
+### JS
+- file structure
+- animation
+- page loading
+
+### PHP
+- partial templates 
+- functions and scripts

@@ -22,7 +22,9 @@
     "@roots/bud": "6.20.0",
     "@roots/bud-postcss": "^6.20.0",
     "@roots/bud-tailwindcss": "^6.20.0",
-    "@roots/sage": "6.20.0"
-  },
-  "dependencies": {}
+    "@roots/sage": "6.20.0",
+    "node-sass": "^9.0.0",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.12"
+  }
 }
